@@ -26,28 +26,6 @@ public class Library {
                 System.out.println(l);; //выводит книги у которого id library == 1
             }
         }
-        /*boolean foundAny = false;
-        for (Library l : libraries) {
-            if (l.id == i) { // ищем только ту библиотеку, которую ввёл пользователь
-                boolean foundMatch = false;
-                for (Book b : l.books) {
-                    if (b.id == l.id) {
-                        System.out.println("Найдено совпадение:");
-                        System.out.println("Библиотека ID: " + l.id + ", Название: " + l.name);
-                        System.out.println("Книга ID: " + b.id + ", Название: " + b.bookName + "\n");
-                        foundMatch = true;
-                        foundAny = true;
-                    }
-                }
-                if (!foundMatch) {
-                    System.out.println("В библиотеке с ID " + i + " совпадений не найдено.");
-                }
-                return; // библиотека найдена, можно выйти
-            }
-        }
-        if (!foundAny) {
-            System.out.println("Библиотека с ID " + i + " не найдена.");
-        }*/
     }
     @Override
     public String toString() {
