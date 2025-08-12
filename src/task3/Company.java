@@ -25,9 +25,6 @@ public class Company {
             System.out.println(g);
         }
     }
-    public Person getPerson1(){
-        return founder;
-    }
     @Override
     public String toString() {
         return "Company Info: \n" +
